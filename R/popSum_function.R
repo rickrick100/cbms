@@ -16,6 +16,6 @@ popSum <- function(main) {
     group_by(brgy) %>%
     summarise(total = sum(phsize),
               hh = length(brgy)) %>%
-    arrange(total)
+    arrange(desc(total))
   write_csv(a,'overall.csv')
 }
