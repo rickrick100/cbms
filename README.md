@@ -15,3 +15,5 @@ cbmsUtils(): This function allows you to generate/segregate: duplicate files, un
 ```
 cbmsUtils('main.csv')
 ```
+
+- Fredrick Cuario
