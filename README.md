@@ -3,8 +3,8 @@
 
 Installation:
 ```
-install.packages("devtools") # if you don't have devtools
-library(devtools) # this is needed for installation cbms libs.
+install.packages("devtools")
+library(devtools)
 install_github('rickrick100/cbms')
 ```
 
