@@ -23,7 +23,7 @@ cbmsUtils('main.csv')
 ```
 fusTab(): This function you to create a geopoint and lite version of main.csv
 ```
-fusTab('main.csv'
+fusTab('main.csv')
 ```
 
 - Fredrick Cuario
