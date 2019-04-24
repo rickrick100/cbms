@@ -15,7 +15,7 @@ library(cbms)
 
 popSum(): This function allows you to generate a summary of Population and Household in cbms
 ```
-popSum('main.csv)
+popSum('main.csv')
 ```
 cbmsUtils(): This function allows you to generate/segregate: duplicate files, unfiltered files and distinct files.
 ```
