@@ -10,5 +10,6 @@ LazyData: true
 RoxygenNote: 6.1.1.9000
 Imports:
   dplyr,
-  data.table
+  data.table,
+  formattable
   
