@@ -8,11 +8,10 @@
 #' cbmsUtils('main.csv')
 #' 
 #' cbmsUtils('"C:/Users/name/main.csv"')
-#' @import dplyr readr
-#'
+
 cbmsUtils <- function(main) {
   
-  mainFile <- read_csv(main)
+  mainFile <- fread(main)
   
   dupli <- mainFile %>%
     filter(hcn %in% unique(.[["hcn"]][duplicated(.[["hcn"]])]) &
@@ -28,8 +27,8 @@ cbmsUtils <- function(main) {
   dist <- mainFile %>%
     distinct(hcn,hhhead, respondent, totin, .keep_all = T)
   
-  write_csv(dupli, 'duplicated.csv')
-  write_csv(unfil, 'unfiltered.csv')
-  write_csv(dist, 'distinct.csv')
+  fwrite(dupli, 'duplicated.csv')
+  fwrite(unfil, 'unfiltered.csv')
+  fwrite(dist, 'distinct.csv')
   
 }
