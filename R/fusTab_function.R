@@ -11,13 +11,13 @@
 
 fusTab <- function(main) {
   
-  overall <- read_csv(main)
+  overall <- fread(main)
   a <- overall %>%
     mutate(geo = paste(geopoint_hh.latitude,',',geopoint_hh.longitude)) %>%
     select(brgy,main.creator, main.uploader, hcn, geo, geopoint_hh.accuracy, street,
-         hnum, phsize,supervisor,interviewer, int_date_fedtd)
+           hnum, phsize,supervisor,interviewer, int_date_fedtd)
   a$int_date_fedtd <- as.Date(a$int_date_fedtd, "%m/%d/%Y")
   
-  write_csv(a,'overall.csv')
+  fwrite(a,'overall.csv')
   
 }
