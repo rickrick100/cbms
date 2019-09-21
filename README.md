@@ -26,4 +26,4 @@ fusTab(): This function you to create a geopoint and lite version of main.csv
 fusTab('main.csv')
 ```
 
-- Fredrick Cuario
+- Frederick Cuario
