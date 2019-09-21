@@ -21,7 +21,7 @@ cbmsUtils(): This function allows you to generate/segregate: duplicate files, un
 ```
 cbmsUtils('main.csv')
 ```
-fusTab(): This function you to create a geopoint and lite version of main.csv
+fusTab(): This function allows you to create a geopoint and lite version of main.csv suitable for fast mapping in qgis or google earth
 ```
 fusTab('main.csv')
 ```
