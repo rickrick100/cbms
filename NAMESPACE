@@ -3,4 +3,3 @@
 export(cbmsUtils)
 export(fusTab)
 export(popSum)
-export(readCBMS)
