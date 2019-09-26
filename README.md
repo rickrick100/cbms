@@ -12,7 +12,11 @@ Import library so you can use following functions.
 ```
 library(cbms)
 ```
-
+readCBMS(): This function reads all file in a directory from .can files
+```
+readCBMS('fread') # for larger dataset
+readCBMS('read.csv') # for small dataset
+```
 popSum(): This function allows you to generate a summary of Population and Household in cbms
 ```
 popSum('main.csv')
