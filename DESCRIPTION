@@ -1,6 +1,6 @@
 Package: cbms
 Title: An Implementation of CBMS Report Generation
-Version: 0.0.1.1
+Version: 0.0.1.2
 Authors@R: person("Frederick", "Cuario", email = "rrcuario@gmail.com", role = c("aut", "cre"))
 Description: Creates a table for accomplishing target.
 Depends: 
