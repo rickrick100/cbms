@@ -4,7 +4,7 @@ Version: 0.0.1.2
 Authors@R: person("Frederick", "Cuario", email = "rrcuario@gmail.com", role = c("aut", "cre"))
 Description: Creates a table for accomplishing target.
 Depends: 
-  R (>= 3.6.1),
+  R (>= 3.6),
   dplyr,
   data.table,
   formattable
