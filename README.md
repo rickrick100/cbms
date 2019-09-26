@@ -14,8 +14,8 @@ library(cbms)
 ```
 readCBMS(): This function reads all file in a directory from .can files
 ```
-readCBMS('fread')
-readCBMS('read.csv')
+readCBMS('fread') #for larger .can file > 100 MB
+readCBMS('read.csv') for smaller .can file
 ```
 popSum(): This function allows you to generate a summary of Population and Household in cbms
 ```
