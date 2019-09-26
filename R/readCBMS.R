@@ -1,8 +1,7 @@
 #' readCBMS Function
 #'
-#' This function reads all file in a directory.
-#' @param fread for faster data reading and larger data
-#' @param read.csv for small data
+#' This function reads all file in a directory from .can files
+#' @param fread/read.csv for faster data reading and larger data
 #' @keywords cbms
 #' @export
 #' @examples

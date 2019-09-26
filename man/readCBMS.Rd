@@ -7,12 +7,10 @@
 readCBMS(x)
 }
 \arguments{
-\item{fread}{for faster data reading and larger data}
-
-\item{read.csv}{for small data}
+\item{fread/read.csv}{for faster data reading and larger data}
 }
 \description{
-This function reads all file in a directory.
+This function reads all file in a directory from .can files
 }
 \examples{
 readCBMS('fread')
